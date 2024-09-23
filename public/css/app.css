@@ -1,0 +1,74 @@
+.w-half{
+    width: 50%;
+}
+@media (min-width: 768px) {
+    .md\:w-full {
+        width: 100%;
+    }
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* Container Styling */
+.flex {
+    display: flex;
+}
+
+/* Button Styling */
+.button {
+    padding: 0.5rem; /* Equivalent to p-2 */
+    color: white; /* Equivalent to text-white */
+    font-weight: 600; /* Equivalent to font-semibold */
+    border-radius: 0.5rem; /* Equivalent to rounded-lg */
+    transition: background-color 0.3s ease-in-out; /* Equivalent to transition ease-in-out duration-300 */
+}
+
+/* Update Button */
+.bg-red {
+    background-color: #f87171; /* Equivalent to bg-red-400 */
+}
+
+.bg-red:hover {
+    background-color: #dc2626; /* Equivalent to hover:bg-red-600 */
+}
+
+/* Cancel Button */
+.bg-yellow {
+    background-color: #facc15; /* Equivalent to bg-yellow-400 */
+}
+
+.bg-yellow:hover {
+    background-color: #ca8a04; /* Equivalent to hover:bg-yellow-600 */
+}
+
+/* Address/Payment Button */
+.bg-green {
+    background-color: #4ade80; /* Equivalent to bg-green-400 */
+}
+
+.bg-green:hover {
+    background-color: #16a34a; /* Equivalent to hover:bg-green-600 */
+}
+
+/* Margin and Padding Classes */
+
+/* mx-10: Margin Left and Right */
+.mx-10 {
+    margin-left: 2.5rem; /* Equivalent to mx-10 (40px) */
+    margin-right: 2.5rem;
+}
+
+/* my-2: Margin Top and Bottom */
+.my-2 {
+    margin-top: 0.5rem; /* Equivalent to my-2 (8px) */
+    margin-bottom: 0.5rem;
+}
+
+/* p-1: Padding */
+.p-1 {
+    padding: 0.25rem; /* Equivalent to p-1 (4px) */
+}
+.gap-3{
+    gap: 12px;
+}
